@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>The Python Book Review</title>
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+        <div class="container-xxl">
+            <!-- navbar brand -->
+            <a class="navbar-brand" href="#intro">
+                <span class="text-secondary fw-bold">
+                    <i class="bi bi-book-half"></i>
+                    Python - 2 Books in 1
+                </span>
+            </a>
+            <!-- toggle button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#topics">About The Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Get in Touch</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a class="btn btn-secondary" href="#pricing">Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main section -->
+    <section id="intro">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Black-Belt</div>
+                        <div class="display-5 text-muted">Your Coding Skills</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Python: 2 Books in 1: Basic Programming & Machine Learning - The
+                        Comprehensive Guide to Learn and Apply Python Programming Language Using Best Practices and
+                        Advanced Features.</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                    <a href="#sidebar" class="d-block mt-3 text-secondary" data-bs-toggle="offcanvas" role="button"
+                        aria-controls="sidebar">
+                        Explore Other Books
+                    </a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <!-- tooltip -->
+                    <span class="tt" data-bs-placement="bottom" title="Python book cover">
+                        <img src="assets/ebook-cover.png" class="img-fluid" alt="ebook">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing plans -->
+    <section id="pricing" class="bg-light mt-5">
+        <!-- container -->
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plans</h2>
+                <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+            </div>
+            <!-- cards -->
+            <div class="row my-5 g-0 align-items-center justify-content-center">
+                <!-- card 1 -->
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Starter Edition</h4>
+                            <p class="lead card-subtitle">eBook download only</p>
+                            <p class="display-5 my-4 text-primary fw-bold">&#x20B9;2,000</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">This comprehensive eBook takes you
+                                through the process of setting up your logic building using Python script.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                                Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col-9 col-lg-4">
+                    <div class="card border-primary border-2">
+                        <div class="card-header text-center text-primary">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="card-title">Complete Edition</h4>
+                            <p class="lead card-subtitle">eBook download & all updates</p>
+                            <p class="display-4 my-4 text-primary fw-bold">&#x20B9;10,000</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Discover the world of Ethereum mining
+                                with Python as your guide. With regular updates and an eBook format, you'll stay ahead
+                                in the rapidly evolving world.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                                Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Ultimate Edition</h4>
+                            <p class="lead card-subtitle">download, updates & extras</p>
+                            <p class="display-5 my-4 text-primary fw-bold">&#x20B9;15,000</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">Get your copy now and start
+                                maximizing your mining potential with Python as yuor guide!</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">
+                                Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- topics at a glance -->
+    <section id="topics">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Inside the Book ...</h2>
+                <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+            </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="assets/ebook-k.png" class="img-fluid" alt="ebook">
+                </div>
+                <div class="col-lg-6">
+                    <!-- accordion -->
+                    <div class="accordion" id="chapters">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
+                                    Chapter 1 - Introduction to Ethereum and Mining
+                                </button>
+                            </h2>
+                            <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>This chapter introduces Ethereum and its blockchain technology. It covers the
+                                        basics of mining, including proof-of-work, mining pools, and the Ethereum
+                                        Virtual Machine (EVM). The chapter also provides an overview of how Python can
+                                        be used to interact with Ethereum for mining purposes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
+                                    Chapter 2 - Setting Up Your Python Environment
+                                </button>
+                            </h2>
+                            <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>In this chapter, you'll learn how to set up your Python environment for Ethereum
+                                        mining. This includes installing Python, setting up dependencies, and
+                                        configuring your development environment for mining applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
+                                    Chapter 3 - Python Mining Algorithms and Strategies
+                                </button>
+                            </h2>
+                            <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>This chapter explores the algorithms used in Ethereum mining and how they can be
+                                        implemented in Python. It covers topics such as Ethash, the mining algorithm
+                                        used by Ethereum, and strategies for optimizing mining performance using Python.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
+                                    Chapter 4 - Monitoring and Managing Your Mining Operation with Python
+                                </button>
+                            </h2>
+                            <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>Here, you'll learn how to use Python to monitor and manage your Ethereum mining
+                                        operation. This includes using Python libraries and tools for monitoring mining
+                                        performance, troubleshooting common issues, and optimizing profitability.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading-5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
+                                    Chapter 5 - Advanced Python Techniques for Ethereum Mining
+                                </button>
+                            </h2>
+                            <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5"
+                                data-bs-parent="#chapters">
+                                <div class="accordion-body">
+                                    <p>This chapter covers advanced topics in Ethereum mining using Python. It may
+                                        include advanced mining strategies, optimization techniques, and using Python
+                                        for advanced data analysis and visualization related to mining operations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews list -->
+    <section id="reviews" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2><i class="bi bi-bookmark-heart"></i> Book Reviews</h2>
+                <p class="lead">What the students have said about the book!</p>
+            </div>
+            <!-- reviews -->
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">This book is a game-changer</h5>
+                            <p class="mb-1">This book is a game-changer for anyone looking to dive into Ethereum mining
+                                using Python.
+                                The step-by-step instructions are clear and easy to follow, even for beginners. The
+                                explanations of
+                                mining concepts and the Python code samples make it a valuable resource for both
+                                learning and
+                                implementing mining strategies.</p>
+                            <small>Review by Sonia</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">An excellent book</h5>
+                            <p class="mb-1">An excellent book that bridges the gap between Python programming and
+                                Ethereum mining. The
+                                author's approach is practical and engaging, with a focus on real-world applications.
+                                The sections on
+                                smart contracts and DApps add a valuable dimension to the mining process, making this
+                                book a must-have
+                                for miners looking to enhance their skills.</p>
+                            <small>Review by Ritesh</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">The author's expertise shines through in the clear explanations</h5>
+                            <p class="mb-1">This book lives up to its title as the ultimate companion for Ethereum
+                                mining with Python.
+                                It covers everything from setting up your mining rig to optimizing performance and
+                                maximizing profits.
+                                The author's expertise shines through in the clear explanations and actionable advice.
+                                Highly
+                                recommended for serious miners.</p>
+                            <small>Review by Tia</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5 class="mb-1">A practical and comprehensive guide</h5>
+                            <p class="mb-1">A practical and comprehensive guide to Ethereum mining with Python. The book
+                                walks you
+                                through the entire process of building and managing your mining rig, from hardware
+                                selection to software
+                                setup. The practical tips and troubleshooting advice make it a valuable resource for
+                                both beginners and
+                                experienced miners.</p>
+                            <small>Review by Abi</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <div class="pb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5 class="mb-1">This book is a treasure trove of knowledge</h5>
+                            <p class="mb-1">This book is a treasure trove of knowledge for anyone interested in
+                                mastering Ethereum
+                                mining with Python. It covers everything from the basics to advanced strategies, making
+                                it suitable for
+                                beginners and experienced miners alike. The clear explanations and practical examples
+                                make complex
+                                concepts easy to understand and implement.</p>
+                            <small>Review by Ayesha</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact form -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Get in Touch</h2>
+                <p class="lead">Questions to ask? Fill out the form to contact us directly ...</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <!-- form -->
+                    <form>
+                        <label for="email" class="form-label">Email address:</label>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill text-secondary"></i>
+                            </span>
+                            <input type="text" id="email" class="form-control" placeholder="e.g. abc@gmail.com" />
+                            <!-- tooltip -->
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom"
+                                    title="Enter an email address we can reply to.">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+                        <label for="name" class="form-label">Name:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-person-fill text-secondary"></i>
+                            </span>
+                            <input type="text" id="name" class="form-control" placeholder="e.g. abc" />
+                            <!-- tooltip -->
+                            <span class="input-group-text">
+                                <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                                    <i class="bi bi-question-circle text-muted"></i>
+                                </span>
+                            </span>
+                        </div>
+                        <label for="subject" class="form-label">What is your question about?</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+                            </span>
+                            <select class="form-select" id="subject">
+                                <option value="pricing" selected>Pricing query</option>
+                                <option value="content">Content query</option>
+                                <option value="other">Other query</option>
+                            </select>
+                        </div>
+                        <div class="mb-4 mt-5 form-floating">
+                            <textarea class="form-control" id="query" style="height: 140px"
+                                placeholder="query"></textarea>
+                            <label for="query">Your query...</label>
+                        </div>
+                        <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- get updates -->
+    <!-- modal -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Stay in The Loop</h2>
+                <p class="lead">Get the latest updates as they happen...</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Python book that focuses on keeping readers updated with the latest
+                        trends, best
+                        practices, and advancements in the Python programming language. It covers a wide range of
+                        topics, including
+                        new features in Python releases, tips for efficient coding, and insights into Python's growing
+                        applications
+                        in various industries. Whether you're a beginner looking to stay current with Python or an
+                        experienced
+                        developer seeking to deepen your knowledge, this book offers valuable insights and practical
+                        guidance to
+                        help you stay ahead in the rapidly evolving world of Python programming.</p>
+                    <button class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                        Register for Updates
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reg-modal -->
+    <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Python book that provides real-time information and insights into the ever-evolving landscape of
+                        Python
+                        programming. It focuses on delivering up-to-date content on new Python features, libraries,
+                        frameworks, and
+                        best practices. This book is designed for readers who want to stay ahead of the curve and be
+                        informed about
+                        the latest developments in Python programming, enabling them to apply this knowledge to their
+                        projects and
+                        stay competitive in the field. Whether you're a beginner or an experienced Python developer,
+                        this book aims
+                        to keep you informed and empowered with the latest updates in Python.</p>
+                    <label for="modal-email" class="form-label">Your email address:</label>
+                    <input type="text" class="form-control" id="modal-email" placeholder="e.g. abc@gmail.com">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- side panel -->
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="sidebar-label">Other Books</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Check out other books</p>
+            <!-- dropdown -->
+            <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown"
+                    data-bs-toggle="dropdown">
+                    Choose a book title
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                    <li><a class="dropdown-item" href="#">Kali Linux Hacking</a></li>
+                    <li><a class="dropdown-item" href="#">JavaScript Programming</a></li>
+                    <li><a class="dropdown-item" href="#">Artificial Intelligence for Business Applications</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltips = document.querySelectorAll('.tt')
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t)
+        })
+    </script>
+</body>
+
+</html>
